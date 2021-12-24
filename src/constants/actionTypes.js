@@ -6,6 +6,7 @@ export const FETCH_BY_SEARCH = 'FETCH_BY_SEARCH';
 export const LIKE = 'LIKE';
 export const FETCH_POST = 'FETCH_POST';
 export const AUTH = 'AUTH';
+export const COMMENT = 'COMMENT';
 export const LOGOUT = 'LOGOUT';
 
 export const START_LOADING = 'START_LOADING';

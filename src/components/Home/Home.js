@@ -42,7 +42,7 @@ const Home = () => {
         dispatch(getPostsBySearch({ search, tags: tags.join(',') }));
         history.push(`/posts/search?searchQuery=${search || 'none'}&tags=${tags.join(',')}`);
       } else {
-        history.push('/');
+        history.push('/posts');
       }
     };
 
